@@ -6,17 +6,17 @@
 	<title>Veterinary clinic</title>
 	<!-- Normalize css is here -->
 	<!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-
+	
 	<!-- Own css is here -->
 	<!-- <link rel="stylesheet" href="./css/main.css"> -->
-
+	
 	<link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-
+	
 	<!-- Start header -->
 	<header class="site-header">
-
+		
 		<div class="header-start">
 			<div class="container">
 				<address class="site-address">
@@ -40,16 +40,18 @@
 						<li class="address-item">
 							<strong class="address-days schedule-icon">
 								Пн - Пт
-								<time class="work-hours" datetime="2024-07-07"> 8:00 - 18:00 </time>
+								<time class="work-hours" datetime="2024-07-07T08:00"> 8:00 - </time>
+								<time class="work-hours" datetime="2024-07-07T18:00"> 18:00  </time>
 							</strong>
 							<strong class="address-days">
 								Сб - Вс
-								<time class="work-hours" datetime="2024-07-07"> 8:00 - 14:00 </time>
+								<time class="work-hours" datetime="2024-07-07T08:00"> 8:00 - </time>
+								<time class="work-hours" datetime="2024-07-07T14:00"> 14:00 </time>
 							</strong>
 						</li>
 					</ul>
 				</address>
-				</div>
+			</div>
 		</div>
 		<div class="header-end">
 			<div class="container">
@@ -57,7 +59,7 @@
 					<div class="pic-box">
 						<a class="logo-link" href="./index.html">
 							<img class="logo-pic" src="./images/logo.svg" alt="This is Veterinary company's logo image" width="178"
-								height="86">
+							height="86">
 						</a>
 					</div>
 					<nav class="header-navigation">
@@ -102,10 +104,10 @@
 		</div>
 	</header>
 	<!-- Finish header -->
-
+	
 	<!-- Begin site main -->
 	<main class="site-main">
-
+		
 		<!-- Start hero section -->
 		<section class="hero">
 			<div class="container">
@@ -129,11 +131,11 @@
 						</a>
 					</div>
 				</div>
-				</div>
-
+			</div>
+			
 		</section>
 		<!-- Finish hero section -->
-
+		
 		<!-- Article start -->
 		<article class="site-article">
 			<h2 class="visually-hidden">Внимание вашему питомцу</h2>
@@ -150,8 +152,8 @@
 			</div>
 		</article>
 		<!-- Finish article -->
-
-		 <!-- Service section start -->
+		
+		<!-- Service section start -->
 		<section class="service">
 			<div class="container">
 				<div class="service-title-wrapper">
@@ -223,8 +225,8 @@
 			<div class="container">
 				<div class="service-wrapper-inner">
 					<img class="service-pic" src="./images/initialexaminationimage.png"
-						alt="In this picture you can see how doctors give first aid to animals." width="590" height="332"
-						srcset="./images/initialexaminationimage.png 1x, ./images/initialexaminationimage@2x.png 2x" loading="lazy">
+					alt="In this picture you can see how doctors give first aid to animals." width="590" height="332"
+					srcset="./images/initialexaminationimage.png 1x, ./images/initialexaminationimage@2x.png 2x" loading="lazy">
 					<div class="examination-wrapper">
 						<h4 class="examination-title" title="Первичный осмотр">
 							Первичный осмотр
@@ -248,14 +250,18 @@
 			</div>
 		</section>
 		<!-- Service section finish -->
-
+		
 		<!-- Subscribe articel start -->
 		<article class="subscribe-article">
-			<h2 class="visually-hidden">Подписаться</h2>
 			<div class="container">
+				<div class="subscribe-article-wrapper">
+					<h2 class="subscribe-article-title" title="Будь в курсе событий">
+						Будь в курсе событий
+					</h2>
+				</div>
 				<form class="subscribe-form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
 					<input class="subscribe-input" type="email" name="user_email" aria-label="Укажите Ваш email адрес"
-						placeholder="Укажите Ваш email адрес" required>
+					placeholder="Укажите Ваш email адрес" required>
 					<button class="subscribe-btn">
 						Подписаться
 					</button>
@@ -263,7 +269,7 @@
 			</div>
 		</article>
 		<!-- Subscribe article finish -->
-
+		
 		<!-- Blogs section start -->
 		<section class="blogs">
 			<div class="container">
@@ -275,8 +281,8 @@
 				<ul class="blogs-list unstayled-list">
 					<li class="blogs-item">
 						<img class="blogs-item-pic" src="./images/cleanteethimage.png"
-							alt="In this picture, you can see how the teeth of animals are cleaned" width="305" height="180"
-							srcset="./images/cleanteethimage.png 1x, ./images/cleanteethimage@2x.png 2x" loading="lazy">
+						alt="In this picture, you can see how the teeth of animals are cleaned" width="305" height="180"
+						srcset="./images/cleanteethimage.png 1x, ./images/cleanteethimage@2x.png 2x" loading="lazy">
 						<div class="blogs-item-wrapper-inner">
 							<time class="blogs-item-time" datetime="2020-08-28">28.08.2020</time>
 							<div class="item-title-wrapper">
@@ -297,8 +303,8 @@
 					<li class="blogs-item">
 						<div class="blogs-item-wrapper">
 							<img class="blogs-item-pic" src="./images/getdogimge.png"
-								alt="This picture teaches you what to do before getting a pet, and through this information, you will know what to consider when choosing a pet."
-								width="305" height="435" srcset="./images/getdogimge.png 1x, ./images/getdogimge@2x.png 2x" loading="lazy">
+							alt="This picture teaches you what to do before getting a pet, and through this information, you will know what to consider when choosing a pet."
+							width="305" height="435" srcset="./images/getdogimge.png 1x, ./images/getdogimge@2x.png 2x" loading="lazy">
 							<div class="blogs-item-wrapper-inner">
 								<div class="get-dog-wrapper">
 									<div class="get-dog-link-box">
@@ -328,8 +334,8 @@
 					</li>
 					<li class="blogs-item">
 						<img class="blogs-item-pic" src="./images/vacinateimage.png"
-							alt="In this picture you will find information about when to vaccinate your animals" width="305" height="180"
-							srcset="./images/vacinateimage.png 1x, ./images/vacinateimage@2x.png 2x" loading="lazy">
+						alt="In this picture you will find information about when to vaccinate your animals" width="305" height="180"
+						srcset="./images/vacinateimage.png 1x, ./images/vacinateimage@2x.png 2x" loading="lazy">
 						<div class="blogs-item-wrapper-inner">
 							<time class="blogs-item-time" datetime="2020-07-21">21.07.2020</time>
 							<div class="item-title-wrapper">
@@ -351,148 +357,155 @@
 			</div>
 		</section>
 		<!-- Blogs section finish -->
-
+		
 		<!-- Feedback section start -->
-		 <section class="feedback">
-				<div class="container">
-					<div class="feedback-wrapper">
-							<div class="feedback-title-wrapper">
-								<h2 class="feedback-title" title="Обратная связь">
-									Обратная связь
-								</h2>
-							</div>
-							<div class="feedback-paragraph-wrapper">
-								<p class="feedback-paragraph">
-									При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:
-								</p>
-							</div>
-							<form class="feedback-form"
-							action="https://echo.htmlacademy.ru/courses"
-							method="post"
-							autocomplete="off">
-								<input class="feedback-input"
-								type="text"
-								name="user_name"
-								aria-label="Ваше имя"
-								placeholder="Ваше имя"
-								required>
-								<input class="feedback-input"
-								type="email"
-								name="user_email"
-								aria-label="Email для обратной связи" placeholder="Email для обратной связи"
-								required>
-								<textarea class="feedback-message"
-								name="text"
-								id="text"
-								cols="30"
-								rows="10"
-								aria-label="Опишите Ваш вопрос." placeholder="Опишите Ваш вопрос."
-								>
-								</textarea>
-								<button class="feedback-btn">
-									Задать нам вопрос
-								</button>
-							</form>
+		<section class="feedback">
+			<div class="feedback-wrapper">
+				<img class="feedback-pic" 
+				src="./images/locationimage.png" alt="">
+				<div class="feedback-inner">
+					<div class="feedback-title-wrapper">
+						<h2 class="feedback-title" title="Обратная связь">
+							Обратная связь
+						</h2>
 					</div>
-				</div>
-		 </section>
-		 <!-- Feedback section finish -->
-	</main>
-	<!-- End site main -->
+					<div class="feedback-paragraph-wrapper">
+						<p class="feedback-paragraph">
+							При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:
+						</p>
+					</div>
+					<form class="feedback-form"
+					action="https://echo.htmlacademy.ru/courses"
+					method="post"
+					autocomplete="off">
+					<input class="feedback-input"
+					type="text"
+					name="user_name"
+					aria-label="Ваше имя"
+					placeholder="Ваше имя"
+					required>
+					<input class="feedback-input"
+					type="email"
+					name="user_email"
+					aria-label="Email для обратной связи" placeholder="Email для обратной связи"
+					required>
+					<textarea class="feedback-message"
+					name="text"
+					id="text"
+					cols="30"
+					rows="10"
+					aria-label="Опишите Ваш вопрос." placeholder="Опишите Ваш вопрос."
+					></textarea>
+					<button class="feedback-btn">
+						Задать нам вопрос
+					</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- Feedback section finish -->
+</main>
+<!-- End site main -->
 
-	<!-- Site footer start -->
-	<footer class="site-footer">	
-		<div class="container">
-			<div class="footer-wrapper">
-				<a class="footer-logo" href="./index.html">
-					<img class="footer-pic" 
-					src="./images/logo.svg" 
-					alt="This is Veterinary company logo image"
-					width="158"
-					height="77"
-					loading="lazy">
-				</a>
-				<div class="footer-list-wrapper">
-					<ul class="footer-list unstayled-list">
-						<li class="footer-item">
-							<a class="footer-link" href="#">
-								Главная
-							</a>
-						</li>
-						<li class="footer-item">
-							<a class="footer-link" href="#">
-								О Клинике
-							</a>
-						</li>
-						<li class="footer-item">
-							<a class="footer-link" href="#">
-								Наши Услуги
-							</a>
-						</li>
-					</ul>
-					<ul class="footer-list unstayled-list">
-						<li class="footer-item">
-							<a class="footer-link" href="#">
-								Полезные Статьи
-							</a>
-						</li>
-						<li class="footer-item">
-							<a class="footer-link" href="#">
-								FAQ
-							</a>
-						</li>
-						<li class="footer-item">
-							<a class="footer-link" href="#">
-								Контакты
-							</a>
-						</li>
-					</ul>
-				</div>
-				<address class="footer-address">
-					<div class="address-wrapper">
+<!-- Site footer start -->
+<footer class="site-footer">	
+	<div class="container">
+		<div class="footer-wrapper">
+			<a class="footer-logo" href="./index.html">
+				<img class="footer-pic" 
+				src="./images/logo.svg" 
+				alt="This is Veterinary company logo image"
+				width="158"
+				height="77"
+				loading="lazy">
+			</a>
+			<div class="footer-list-wrapper">
+				<ul class="footer-list unstayled-list">
+					<li class="footer-item">
+						<a class="footer-link" href="#">
+							Главная
+						</a>
+					</li>
+					<li class="footer-item">
+						<a class="footer-link" href="#">
+							О Клинике
+						</a>
+					</li>
+					<li class="footer-item">
+						<a class="footer-link" href="#">
+							Наши Услуги
+						</a>
+					</li>
+				</ul>
+				<ul class="footer-list unstayled-list">
+					<li class="footer-item">
+						<a class="footer-link" href="#">
+							Полезные Статьи
+						</a>
+					</li>
+					<li class="footer-item">
+						<a class="footer-link" href="#">
+							FAQ
+						</a>
+					</li>
+					<li class="footer-item">
+						<a class="footer-link" href="#">
+							Контакты
+						</a>
+					</li>
+				</ul>
+			</div>
+			<address class="footer-address">
+				<ul class="footer-time-list unstayled-list">
+					<li class="footer-time-item">
 						<strong class="address-days schedule-icon">
 							Пн - Пт
-							<time class="work-hours" datetime="2024-07-07">8:00 - 18:00 </time>
+							<time class="work-hours" datetime="2024-07-07T08:00">8:00 - </time>
+							<time class="work-hours" datetime="2024-07-07T18:00">18:00</time>
 						</strong>
+					</li>
+					<li class="footer-time-item">
 						<strong class="address-days">
 							Сб - Вс
-							<time class="work-hours" datetime="2024-07-07">8:00 - 14:00 </time>
+							<time class="work-hours" datetime="2024-07-07T08:00">8:00 -</time>
+							<time class="work-hours" datetime="2024-07-07T14:00">14:00 </time>
 						</strong>
-					</div>
-					<div class="address-link-wrapper">
-						<a class="address-link" href="#">
-							г. Мариуполь, проспект Победы, 48а
+					</li>
+				</ul>
+				<div class="address-link-wrapper">
+					<a class="address-link" href="#">
+						г. Мариуполь, проспект Победы, 48а
+					</a>
+				</div>
+				<ul class="footer-address-list unstayled-list">
+					<li class="footer-address-item">
+						<a class="footer-address-link" href="#">
+							(067) 634 -75 - 74
 						</a>
-					</div>
-					<ul class="footer-address-list unstayled-list">
-						<li class="footer-address-item">
-							<a class="footer-address-link" href="#">
-								(067) 634 -75 - 74
-							</a>
-						</li>
-						<li class="footer-address-item">
-							<a class="footer-address-link" href="#">
-								(0637) 57 - 01 - 31
-							</a>
-						</li>
-						<li class="footer-address-item">
-							<a class="footer-address-link" href="#">
-								(098) 266 - 43 - 89
-							</a>
-						</li>
-					</ul>
-				</address>
-			</div>
-			<span class="footer-span">
-				© 2020 example. All Rights Reserved.
-			</span>
+					</li>
+					<li class="footer-address-item">
+						<a class="footer-address-link" href="#">
+							(0637) 57 - 01 - 31
+						</a>
+					</li>
+					<li class="footer-address-item">
+						<a class="footer-address-link" href="#">
+							(098) 266 - 43 - 89
+						</a>
+					</li>
+				</ul>
+			</address>
 		</div>
+		<span class="footer-span">
+			© 2020 example. All Rights Reserved.
+		</span>
+	</div>
+	
+</footer>
+<!-- Site footer finish -->
 
-	</footer>
-	<!-- Site footer finish -->
-
-	<!-- JavaScript link is here -->
-	<script src="./main.js"></script>
+<!-- JavaScript link is here -->
+<script src="./main.js"></script>
 
 </body>
 </html>
